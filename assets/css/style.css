@@ -15,3 +15,10 @@ body {
     color: #000;
     background-color: #FF7F50;
   }
+
+  .container {
+    padding: 100px 50px;
+    max-width: 570px;
+    border-radius: 5px;
+    background-color: #fff;
+}
