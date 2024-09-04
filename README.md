@@ -28,7 +28,8 @@ code .
 
 # Edite o número de telefone no código JavaScript
 Abra o arquivo script.js
-Localize ${telefone} e substitua pelo número desejado
+Localize
+const urlWhatsApp = `https://api.whatsapp.com/send?phone=seutelefoneaqui&text=${encodeURIComponent(textoWhatsApp)}`; e adicione seu número com +55
 ```
 
 ## Licença
